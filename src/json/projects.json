@@ -4,7 +4,7 @@
         "title": "Redesign of bookcover",
         "description": ["I designed a new cover for the thrid Harry Potter book", "This is the second paragraph."],
         "date": "24.12.2024",
-        "category": ["print"],
+        "category": ["Print"],
         "files": [
             {
                 "path": "../../src/pdf/navn.pdf",
@@ -32,7 +32,7 @@
         "title":"Logo for dyreparken",
         "description": ["I designed a logo for Skumle Dager", "It was very fun working on a project for Dyreparken."],
         "date": "24.12.2024",
-        "category": ["indentity"],
+        "category": ["Visual Identity", "Web"],
         "files": [
             {
                 "path": "./../src/pdf/navn.pdf",

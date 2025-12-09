@@ -25,3 +25,12 @@ div#image img {max-width: 100%}
 .projectItem div img {
     max-width: 100%;
 }
+
+p.message {
+    border: 1px solid red;
+    padding: 10px 30px;
+}
+
+p.message.error{
+    color: red;
+}
