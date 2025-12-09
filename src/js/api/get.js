@@ -1,3 +1,4 @@
+//Get json data
 export default async function get(url){
     try {
         const response = await fetch(url);
@@ -6,6 +7,4 @@ export default async function get(url){
       } catch (error) {
         throw new Error(error);
       }
-    
-
 }

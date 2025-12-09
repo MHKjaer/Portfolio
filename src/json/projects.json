@@ -2,11 +2,57 @@
     {
         "id": 1,
         "title": "Redesign of bookcover",
-        "description": "I designed a new cover for the thrid Harry Potter book"
+        "description": ["I designed a new cover for the thrid Harry Potter book", "This is the second paragraph."],
+        "date": "24.12.2024",
+        "category": ["print"],
+        "files": [
+            {
+                "path": "../../src/pdf/navn.pdf",
+                "name": "navn.pdf"
+            },
+            {
+                "path": "../../src/pdf/navn.pdf",
+                "name": "navn.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/1.png",
+                "desc": "This is an image."
+            },
+            {
+                "path": "../../src/img/2.png",
+                "desc": "This is an image."
+            }
+        ],
+        "color": "#ffffff"
     },
     {
         "id": 2,
         "title":"Logo for dyreparken",
-        "description": "I designed a logo for Skumle Dager"
+        "description": ["I designed a logo for Skumle Dager", "It was very fun working on a project for Dyreparken."],
+        "date": "24.12.2024",
+        "category": ["indentity"],
+        "files": [
+            {
+                "path": "./../src/pdf/navn.pdf",
+                "name": "navn.pdf"
+            },
+            {
+                "path": "./../src/pdf/navn.pdf",
+                "name": "navn.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/2.png",
+                "desc": "This is an image."
+            },
+            {
+                "path": "../../src/img/1.png",
+                "desc": "This is an image."
+            }
+        ],
+        "color": "#f00"
     }
 ]

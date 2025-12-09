@@ -11,3 +11,17 @@ body{
 header {background-color: aqua;}
 main {background-color: yellowgreen;}
 footer {background-color: darksalmon;}
+
+div#image {
+    width: 100px;
+}
+div#image img {max-width: 100%}
+
+.projectItem {
+    width: 300px;
+    background-color: #fff;
+}
+
+.projectItem div img {
+    max-width: 100%;
+}
