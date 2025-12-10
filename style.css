@@ -136,6 +136,11 @@ footer{
     max-width: 100%;
 }
 
+.ctaImageWrapper{
+    border-radius: 16px;
+    overflow: hidden;
+}
+
 .ctaFrontPage .ctaImageWrapper img{
     width: 100%;
 }
