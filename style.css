@@ -9,8 +9,21 @@ body{
 }
 
 header {background-color: aqua;}
-main {background-color: yellowgreen;}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
 footer {background-color: darksalmon;}
+
+
+.ctaFrontPage {
+    width: 200px;
+}
+
+.ctaFrontPage img {
+    width: 100%;
+}
 
 div#image {
     width: 100px;
@@ -33,4 +46,94 @@ p.message {
 
 p.message.error{
     color: red;
+}
+
+
+/*Faktiske css*/
+:root {
+    --bg-color: #FFC5DA;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+header {
+    box-shadow: 0 3px 2px #000;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+nav .logo {
+    grid-row: 1;
+    grid-column: 1 / span 1;
+
+    align-self: center;
+
+    width: 50px;
+    padding: 20px;
+}
+
+nav label {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+
+    justify-self: end;
+    align-self: center;
+
+    width: 30px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    list-style-position: inside;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+    justify-self: center;
+
+    text-align: center;
+}
+
+nav ul li{
+    width: 100%;
+
+    padding: 24px 0;
+
+    border-top: 1px solid #fff;
+    font-size: 0.84rem;
+}
+
+nav ul li a{
+    padding: 24px 24px;
+
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav #dropdown, nav ul {
+    display: none;
+}
+
+nav #dropdown:checked ~ ul{
+    display: block;
 }
