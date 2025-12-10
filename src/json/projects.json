@@ -2,27 +2,23 @@
     {
         "id": 1,
         "title": "Redesign of bookcover",
-        "description": ["I designed a new cover for the thrid Harry Potter book", "This is the second paragraph."],
-        "date": "24.12.2024",
+        "description": ["I designed a new cover for the thrid Harry Potter book", "The brief for this assignment was to design a new cover for a book of our choice."],
+        "date": "13.09.2024",
         "category": ["Print"],
         "files": [
             {
-                "path": "../../src/pdf/navn.pdf",
-                "name": "navn.pdf"
-            },
-            {
-                "path": "../../src/pdf/navn.pdf",
-                "name": "navn.pdf"
+                "path": "../../src/img/bookcover/bookcover.pdf",
+                "name": "bookcover.pdf"
             }
         ],
         "images": [
             {
-                "path": "../../src/img/1.png",
-                "desc": "This is an image."
+                "path": "../../src/img/bookcover/bookcover-mockup.jpg",
+                "desc": "Mockup of the bookcover."
             },
             {
-                "path": "../../src/img/2.png",
-                "desc": "This is an image."
+                "path": "../../src/img/bookcover/bookcover.pdf",
+                "desc": "New design for the third Harry Potter cover."
             }
         ],
         "color": "#ffffff"
@@ -49,7 +45,7 @@
                 "desc": "This is an image."
             },
             {
-                "path": "../../src/img/1.png",
+                "path": "../../src/img/bookcover/bookcover.pdf",
                 "desc": "This is an image."
             }
         ],

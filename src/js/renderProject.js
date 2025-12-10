@@ -29,6 +29,9 @@ export default function renderProject(project) {
         const anchor = document.createElement("a");
         anchor.innerText = name;
         anchor.setAttribute("href", path);
+        anchor.setAttribute("target", "_blank");
+
+        console.log(anchor);
 
         li.append(anchor);
         filesList.append(li); 

@@ -11,7 +11,7 @@
         <header>
             <nav>
                 <div class="logo">
-                    <a href="../../"><img src="../../src/img/logo/Asset 2.svg" alt="logo"/></a>
+                    <a href="../../"><img src="../../src/assets/icons/SVG/logo.svg" alt="logo"/></a>
                 </div>
                 <input type="checkbox" id="dropdown" />
                 <label for="dropdown"><img src="../../src/assets/icons/SVG/dropdown-icon.svg" alt="dropdown menu" /></label>
@@ -23,16 +23,16 @@
             </nav>
         </header>
 
-        <main>
-            <div>
-                <p><a href="../">Back</a></p>
+        <main class="pageView">
+            <div class="backButton">
+                <a href="../"><img src="../../src/assets/icons/SVG/arrow_back_black.svg" alt="back"/></a>
             </div>
             <section>
                 <h1 id="title">Project</h1>
                 <div class="imagesWrapper">
-                    <button id="btnImageBack">&lt;</button>
+                    <button id="btnImageBack"></button>
                     <div id="image"><img src="" alt=""/></div>
-                    <button id="btnImageNext">&gt;</button>
+                    <button id="btnImageNext"></button>
                 </div>
                 <div class="infoWrapper">
                     <p><span class="bold">Date:</span> <span id="projectDate"></span></p>
@@ -49,7 +49,7 @@
         </main>
 
         <footer>
-            <p>Marie Holme Kjær</p>
+            <p>&copy; Marie Holme Kjær</p>
         </footer>
 
         <script type="module" src="../../src/js/findProject.js"></script>

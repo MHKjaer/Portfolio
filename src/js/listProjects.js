@@ -11,22 +11,20 @@ export default function listProjects(data) {
             const section = document.createElement("section");
             const anchor = document.createElement("a");
             const h2 = document.createElement("h2");
-            const div = document.createElement("div");
-            const img = document.createElement("img");
+            const img = document.createElement("div");
             const par = document.createElement("p");
     
             h2.innerText = title;
             par.innerText = date;
     
-            img.src = images[0].path;
-            img.setAttribute("alt", images[0].desc);
+            img.style = `background-image: url("${images[0].path}");`;
+            img.setAttribute("class", "thumbnail");
     
             anchor.setAttribute("href", "./view/?id=" + id);
     
             section.setAttribute("class", "projectItem");
     
-            div.append(img);
-            anchor.append(div, h2, par);
+            anchor.append(img, h2, par);
             section.append(anchor);
     
             projectList.push(section);
