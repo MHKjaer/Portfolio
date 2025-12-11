@@ -1,34 +1,81 @@
 [
     {
         "id": 1,
-        "title": "Redesign of bookcover",
-        "description": ["I designed a new cover for the thrid Harry Potter book", "The brief for this assignment was to design a new cover for a book of our choice."],
-        "date": "13.09.2024",
-        "category": ["Print"],
+        "title": "CuteCon - Branding, Website & Social Media",
+        "description": [
+            "The brief for this project was to create a fictional event and design the on-screen promotional materials for it. This included the brand positioning, an interactive mobile website prototype, a social media strategy, social media profiles and content, and a style guide. I created CuteCon, a convention that celebrates everything cute.",
+            "For the design choices, I focused on creating a visual identity that felt soft, playful, and welcoming, using pastel colors, rounded elements, and mascots that defined CuteCon's personality. The mobile site was designed for clarity and ease of use, starting with simple wireframes, user personas, and early feedback that shaped the final prototype. I refined the layout, improved homepage hierarchy, adjusted illustrations, and added a loading screen animation.",
+            "The social media strategy focused on entertainment, engagement, and community-building across Instagram and TikTok. I created content to introduce the mascots, encourage participation, and generate excitement for the event, using a consistent tone, templates, and playful visuals. Interactive elements, such as polls, naming contests, and short animations, helped fans connect with the brand and share their experiences. All posts were designed to feel cohesive with the overall identity and support a fun, welcoming event atmosphere."
+        ],
+        "date": "12.09.2025",
+        "category": ["Web", "Social Media", "Visual Identity"],
         "files": [
             {
-                "path": "../../src/img/bookcover/bookcover.pdf",
-                "name": "bookcover.pdf"
+                "path": "https://www.figma.com/proto/OSAgR1KLBmj5FKhojjzFkd/Mobile-site?page-id=20%3A140&node-id=197-363&p=f&viewport=150%2C108%2C0.12&t=lt86Wnioh9Udn8Sf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=197%3A363&show-proto-sidebar=1",
+                "name": "Link to Website Prototype"
+            },
+            {
+                "path": "https://www.instagram.com/p/DObcxDyjRpG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+                "name": "Link to Character-based Instagram post"
+            },
+            {
+                "path": "https://www.instagram.com/p/DObuI-6Db8j/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+                "name": "Link to Filter-based Instagram post"
+            },
+            {
+                "path": "https://www.tiktok.com/@cuteconofficial/video/7548530151060049154?is_from_webapp=1&sender_device=pc",
+                "name": "Link to Character-naming TikTok post"
+            },
+            {
+                "path": "https://www.tiktok.com/@cuteconofficial/video/7548531642072059158?is_from_webapp=1&sender_device=pc",
+                "name": "Link to Meme-based TikTok post"
+            },
+            {
+                "path": "../../src/pdf/cutecon/brandguide.pdf",
+                "name": "brandguide.pdf"
+            },
+            {
+                "path": "../../src/pdf/cutecon/SoMe_styleguide.pdf",
+                "name": "SoMe_styleguide.pdf"
+            },
+            {
+                "path": "../../src/pdf/cutecon/character_card.pdf",
+                "name": "character_card.pdf"
             }
         ],
         "images": [
             {
-                "path": "../../src/img/bookcover/bookcover-mockup.jpg",
-                "desc": "Mockup of the bookcover."
+                "path": "../../src/img/cutecon/home.png",
+                "desc": "Screenshot of the fronpage of the website prototype."
             },
             {
-                "path": "../../src/img/bookcover/bookcover.pdf",
-                "desc": "New design for the third Harry Potter cover."
+                "path": "../../src/img/cutecon/character_card.png",
+                "desc": "Card with information about one of the CuteCon mascots."
+            },
+            {
+                "path": "../../src/img/cutecon/SoMe.png",
+                "desc": "Screenshot of a CuteCon Instagram post."
+            },
+            {
+                "path": "../../src/img/cutecon/brandguide.png",
+                "desc": "The brandguide for the event CuteCon."
+            },
+            {
+                "path": "../../src/img/cutecon/SoMe_styleguide.png",
+                "desc": "The social media styleguide for the event CuteCon."
             }
         ],
         "color": "#ffffff"
     },
     {
         "id": 2,
-        "title":"Logo for dyreparken",
-        "description": ["I designed a logo for Skumle Dager", "It was very fun working on a project for Dyreparken."],
-        "date": "24.12.2024",
-        "category": ["Visual Identity", "Web"],
+        "title": "Nexa - Brand Identity",
+        "description": [
+            "The brief for this project was to develop a full brand identity for a product, location, and target audience chosen from a provided list. This included creating a brand name, logo, a one-page style guide, mockups for various touchpoints, and a wild-card marketing idea. I created Nexa, a high-end tech brand based in Brooklyn, New York, aimed at nostalgic millennials, combining modern technology with the playful and optimistic design spirit of the Y2K era.",
+            "I focused on creating a brand identity that felt bold, playful, and premium, using a Y2K-inspired color palette of purple, cyan, and yellow, rounded typography, and star-shaped motifs. The logo balances modern clarity with retro-futuristic style, and alternate variations make it flexible across applications. Packaging, posters, and a mobile-first website were designed to merge nostalgia with sleek, modern presentation, while additional elements like metallic textures and holographic patterns reinforced the retro-futuristic feel. The wild-card Time Machine pop-up brought the brand to life as an immersive, interactive experience, blending nostalgia with Nexa's high-end tech identity. Across all touchpoints, the focus was on making Nexa feel collectible, exciting, and cohesive while appealing to the playful, optimistic sensibilities of the target audience."
+        ],
+        "date": "03.10.2025",
+        "category": ["Visual Identity", "Web", "Print", "Packaging"],
         "files": [
             {
                 "path": "./../src/pdf/navn.pdf",
