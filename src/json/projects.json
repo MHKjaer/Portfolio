@@ -78,22 +78,96 @@
         "category": ["Visual Identity", "Web", "Print", "Packaging"],
         "files": [
             {
-                "path": "./../src/pdf/navn.pdf",
-                "name": "navn.pdf"
-            },
-            {
-                "path": "./../src/pdf/navn.pdf",
-                "name": "navn.pdf"
+                "path": "../../src/pdf/nexa/brand-presentation.pdf",
+                "name": "brand-presentation.pdf"
             }
         ],
         "images": [
             {
-                "path": "../../src/img/2.png",
-                "desc": "This is an image."
+                "path": "../../src/img/nexa/logo.png",
+                "desc": "The logo for Nexa."
             },
             {
-                "path": "../../src/img/bookcover/bookcover.pdf",
-                "desc": "This is an image."
+                "path": "../../src/img/nexa/website2.png",
+                "desc": "Mockup of a phone on Nexa's website."
+            },
+            {
+                "path": "../../src/img/nexa/box.png",
+                "desc": "Mockup of how packaging for Nexa could look."
+            },
+            {
+                "path": "../../src/img/nexa/poster.png",
+                "desc": "Mockup of how a poster on a busstop for Nexa could look."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 3,
+        "title": "A Tail Through Graphic Design History - Leaflet Design",
+        "description": [
+            "The brief for this project was to create a creatively folded leaflet for a pop-up exhibition at Noroff Bergen. The leaflet needed to communicate four specific graphic design styles from the 1950s to the 1980s: International Typographic Style, Pop Art, Psychedelic Poster Style, and Punk/New Wave. Each section had to include text, designer names, and a timeline or infographic. I designed a leaflet called A Tail Through Graphic Design History, using a cat motif where the tail serves as the timeline, tying the sections together in a playful and memorable way.",
+            "I focused on creating a leaflet that allows four very different styles to coexist while staying visually connected. To do this, I used a consistent color palette and the recurring cat motif. The cat's tail acts as the timeline, linking the sections and adding a playful narrative element. Each style has its own typographic personality for the titles, while Helvetica keeps the body text unified. The accordion fold with a cut along the top edge keeps the timeline visible even when the leaflet is closed, and the cat silhouette on the front adds a dynamic, souvenir-like quality. Visual elements, from grid-based Swiss layouts to psychedelic warped shapes and punk-inspired textures, reflect each era's character while keeping the leaflet engaging, educational, and playful."
+        ],
+        "date": "24.10.2025",
+        "category": ["Print"],
+        "files": [
+            {
+                "path": "../../src/pdf/tail/folder.pdf",
+                "name": "folder.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/tail/folder1.png",
+                "desc": "Leaflet unfolded, showing the front page."
+            },
+            {
+                "path": "../../src/img/tail/folder2.png",
+                "desc": "Leaflet unfolded, showing the back page."
+            },
+            {
+                "path": "../../src/img/tail/folder.png",
+                "desc": "Leaflet folded."
+            },
+            {
+                "path": "../../src/img/tail/popart.png",
+                "desc": "Art of a cat made in the Pop Art style."
+            },
+            {
+                "path": "../../src/img/tail/psychedelic.png",
+                "desc": "Art of a cat made in the Psychedelic style."
+            },
+            {
+                "path": "../../src/img/tail/punk.png",
+                "desc": "Art of a cat made in the Punk style."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 4,
+        "title": "Product Photography - Candle",
+        "description": [
+            "The brief for this project was to produce a high-quality product photograph in three formats: square, Instagram post, and web banner. The image had to communicate information about the product without text or graphics, using only light, composition, and color. I chose a scented candle from Nille with the Wooden House scent, aiming to convey warmth, comfort, and a modern, luxurious feel.",
+            "I focused on communicating the candle's qualities and atmosphere through light, composition, and color alone. To highlight its sleek black packaging and natural, cozy character, I used a dark background and warm, soft light. Without access to studio lights, I used painting-with-light techniques, moving a phone screen and occasionally keeping the light stationary to define edges and create depth. The candle was placed on a wooden box to visually connect to its scent, and the composition was kept minimal to maintain focus. In post-production, multiple exposures were layered in Photoshop and fine-tuned for color, contrast, and clarity, resulting in images that balance elegance and warmth while meeting all format requirements."
+        ],
+        "date": "03.10.2025",
+        "category": ["Photography"],
+        "files": [
+            {
+                "path": "../../src/pdf/candle/images.pdf",
+                "name": "images.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/candle/square.jpg",
+                "desc": "Product photo of a scented candle from Nille."
+            },
+            {
+                "path": "../../src/img/candle/wip.jpg",
+                "desc": "The setup when taking the product photo."
             }
         ],
         "color": "#f00"
