@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About me</title>
+        <link rel="stylesheet" href="../../style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="../../"><img src="../../src/assets/icons/SVG/logo.svg" alt="logo"/></a>
+                </div>
+                <input type="checkbox" id="dropdown" />
+                <label for="dropdown"><img src="../../src/assets/icons/SVG/dropdown-icon.svg" alt="dropdown menu" /></label>
+                <ul>
+                    <li><a href="../../">Home</a></li>
+                    <li><a href="../../projects/">Projects</a></li>
+                    <li><a href="../../about">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="pageView">
+            <div class="backButton">
+                <a href="../"><img src="../../src/assets/icons/SVG/arrow_back_black.svg" alt="back"/></a>
+            </div>
+            <section>
+                <h1 id="title">Project</h1>
+                <div class="imagesWrapper">
+                    <button id="btnImageBack"></button>
+                    <div id="image"><img src="" alt=""/></div>
+                    <button id="btnImageNext"></button>
+                </div>
+                <div class="infoWrapper">
+                    <p><span class="bold">Date:</span> <span id="projectDate"></span></p>
+                    <p><span class="bold">Category:</span> <span id="projectCategories"></span></p>
+                </div>
+                <div id="descriptionWrapper"> </div>
+            </section>
+            <section class="filesWrapper">
+                <h2>Files / Links</h2>
+                <ul id="filesList">
+                    
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Marie Holme Kjær</p>
+        </footer>
+
+        <script type="module" src="../../src/js/findProject.js"></script>
+    </body>
+</html>

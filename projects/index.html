@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My projects</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body class="gradient">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="../"><img src="../src/assets/icons/SVG/logo.svg" alt="logo"/></a>
+                </div>
+                <input type="checkbox" id="dropdown" />
+                <label for="dropdown"><img src="../src/assets/icons/SVG/dropdown-icon.svg" alt="dropdown menu" /></label>
+                <ul>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../projects/">Projects</a></li>
+                    <li><a href="../about">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>My projects</h1>
+                <p>A selection of my design projects. Feel free to filter by type.</p>
+            </section>
+
+            <section class="filterWrapper">
+                <h2>Filter</h2>
+                <div>
+                    <input type="checkbox" id="checkWeb" name="Web" />
+                    <label for="checkWeb">Web</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkPrint" name="Print" />
+                    <label for="checkPrint">Print</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkPackaging" name="Packaging" />
+                    <label for="checkPackaging">Packaging</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkSocialMedia" name="Social Media" />
+                    <label for="checkSocialMedia">Social Media</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkPhotography" name="Photography" />
+                    <label for="checkPhotography">Photography</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkVisualIdentity" name="Visual Identity" />
+                    <label for="checkVisualIdentity">Visual Identity</label>
+                </div>
+            </section>
+
+            <div id="allProjectsList"></div>
+        </main>
+
+        <footer>
+            <p>&copy; Marie Holme Kjær</p>
+        </footer>
+
+        <script type="module" src="../../src/js/filterProjects.js"></script>
+    </body>
+</html>

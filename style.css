@@ -1,0 +1,388 @@
+:root {
+    --bg-color: #FFC5DA;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.gradient {
+    background: linear-gradient(180deg,rgba(255, 197, 218, 1) 40%, rgba(191, 207, 255, 1) 100%);
+}
+
+header, footer {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+header {
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+nav .logo {
+    grid-row: 1;
+    grid-column: 1 / span 1;
+
+    align-self: center;
+
+    width: 70px;
+    padding: 20px;
+}
+
+nav label {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+
+    justify-self: end;
+    align-self: center;
+
+    width: 30px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    list-style-position: inside;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+    justify-self: center;
+
+    text-align: center;
+}
+
+nav ul li{
+    width: 100%;
+
+    padding: 24px 0;
+
+    border-top: 1px solid #fff;
+    font-size: 0.9rem;
+}
+
+nav ul li a{
+    padding: 24px 24px;
+
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav #dropdown, nav ul {
+    display: none;
+}
+
+nav #dropdown:checked ~ ul{
+    display: block;
+}
+
+main{
+    padding: 50px 20px 60px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+/*Landing page*/
+
+.landingIntro{
+    margin-bottom: 40px;
+}
+
+.ctaFrontPage{
+    margin: 60px auto 0;
+    width: 100%;
+}
+
+.ctaFrontPage .ctaImageWrapper{
+    max-width: 100%;
+}
+
+.ctaImageWrapper{
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.ctaFrontPage .ctaImageWrapper img{
+    width: 100%;
+}
+
+.ctaButton{
+    background-color: #2b2b2b;
+    text-align: center;
+
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.ctaButton:hover{
+    background-color: #0f0f0f;
+}
+
+.ctaButton a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*Project list page*/
+
+.filterWrapper{
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 24px 30px;
+    margin: 40px 0;
+
+    border-radius: 16px;
+}
+
+.filterWrapper h2{
+    margin: 0 0 24px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.filterWrapper div{
+    margin: 20px 0;
+    display: flex;
+    gap: 14px;
+}
+
+
+.filterWrapper div input[type="checkbox"]{
+    appearance: none;
+    background-color: #2b2b2b;
+    margin: 0;
+
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #fff;
+    border-radius: 0.15em;
+
+    font: inherit;
+
+    display: grid;
+    place-content: center;
+}
+
+.filterWrapper div input[type="checkbox"]::before {
+    content: "";
+    width: 0.55em;
+    height: 0.55em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--bg-color);
+}
+
+.filterWrapper div input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.projectItem{
+    background-color: #fff;
+    margin: 40px 0;
+    border-radius: 16px;
+}
+
+.projectItem a{
+    text-decoration: none;
+    color: #000;
+}
+
+.projectItem a:hover{
+    text-decoration: underline;
+}
+
+.projectItem a h2, .projectItem a p{
+    margin: 0;
+    padding: 20px;
+}
+
+.projectItem a h2{
+    padding-bottom: 14px;
+    font-size: 1.3rem;
+}
+
+.projectItem a p{
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+
+.thumbnail{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+
+/*View page*/
+
+.pageView{
+    padding-top: 0;
+}
+
+.backButton{
+    width: 17px;
+    margin: 30px 0 40px;
+}
+
+.pageView section #title{
+    margin: 24px 0;
+}
+
+.imagesWrapper{
+    width: 100%;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.infoWrapper{
+    margin: 24px 0;
+}
+
+.infoWrapper p{
+    margin: 4px 0;
+}
+
+#descriptionWrapper{
+    margin: 40px 0;
+}
+
+#descriptionWrapper p{
+    margin: 8px 0;
+}
+
+#btnImageBack, #btnImageNext{
+    position: absolute;
+    top: 0;
+
+    width: 30px;
+    height: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+}
+
+#btnImageBack:hover, #btnImageNext:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#btnImageBack{
+    left: 0;
+    background-image: url("./src/assets/icons/SVG/arrow_back_white.svg");
+}
+
+#btnImageNext{
+    background-image: url("./src/assets/icons/SVG/arrow_next.svg");
+    right: 0;
+}
+
+.filesWrapper{
+    background-color: #fff;
+    padding: 24px 30px;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+
+.filesWrapper h2{
+    margin: 0 0 24px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#fileslist{
+    margin-bottom: 0;
+}
+
+#image{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image img.wide{
+    width: 100%;
+}
+
+#image img.tall{
+    height: 100%;
+}
+
+
+/*About me*/
+.aboutMe{
+    width: 100%;
+}
+
+.aboutMe h1{
+    margin-bottom: 16px;
+}
+
+.aboutMe p{
+    margin: 8px 0;
+}
+
+
+@media (min-width: 520px){
+    nav .logo {
+        padding: 20px 0;
+    }
+
+    nav label {
+        padding: 20px 0;
+    }
+}
