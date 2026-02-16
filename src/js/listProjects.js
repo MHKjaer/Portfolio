@@ -7,7 +7,7 @@ export default function listProjects(data) {
         let projectList = [];
     
         //Creates the html for each project section and adds it to an array
-        data.sort((a, b) => a.id < b.id).forEach(({id, title, date, images}) => {
+        data.sort((a, b) => a.id > b.id).forEach(({id, title, date, images}) => {
             const section = document.createElement("section");
             const anchor = document.createElement("a");
             const h2 = document.createElement("h2");
