@@ -1,11 +1,162 @@
 [
     {
         "id": 1,
+        "title": "BUGS - Packaging Design",
+        "description": [
+            "A visual identity and packaging design for BUGS, a chocolate snack targeting Gen Z. The brief was to create a name, logo, packaging, social media content, and a poster to communicate the product's playful gaming theme and ethical cocoa sourcing.",
+            "I developed a pixel-inspired logo and glitch patterns across packaging and digital content. The packaging features a resealable box for convenient snacking while gaming. A vibrant color palette, playful pixel illustrations, and custom characters engage the audience while icons and layout highlight the brand's principles. The project ensures clarity, brand recognition, and appealing aesthetics across multiple touchpoints."
+        ],
+        "date": "24.04.2025",
+        "category": ["Print", "Packaging", "Social Media", "Visual Identity"],
+        "files": [
+            {
+                "path": "../../src/pdf/bugs/designmanual.pdf",
+                "name": "designmanual.pdf"
+            },
+            {
+                "path": "../../src/pdf/bugs/poster.pdf",
+                "name": "poster.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/bugs/box_front.jpg",
+                "desc": "The front of the box for BUGS."
+            },
+            {
+                "path": "../../src/img/bugs/box_back.jpg",
+                "desc": "The back of the box for BUGS."
+            },
+            {
+                "path": "../../src/img/bugs/post1.jpg",
+                "desc": "Example of promotional instagram post for BUGS."
+            },
+            {
+                "path": "../../src/img/bugs/post2.jpg",
+                "desc": "Example of promotional instagram post for BUGS with a fun fact."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 2,
+        "title": "Mindre Matsvinn - Awareness Campaign",
+        "description": [
+            "An awareness campaign for children aged 6-10 to promote responsible food consumption. The brief was to develop a mascot, posters, a folder, and a style manual that educate while remaining engaging for young audiences.",
+            "I created Finn, a raccoon mascot, and used a bright and playful color palette with illustrations and layouts that visually communicate tips for reducing food waste. The posters and folder combine educational content with fun and interactive elements. The campaign emphasizes clarity, consistency, and appeal, making the message memorable for children."
+        ],
+        "date": "05.12.2024",
+        "category": ["Print", "Visual Identity"],
+        "files": [
+            {
+                "path": "../../src/pdf/mindre_matsvinn/styleguide.pdf",
+                "name": "styleguide.pdf"
+            },
+            {
+                "path": "../../src/pdf/mindre_matsvinn/poster.pdf",
+                "name": "poster.pdf"
+            },
+            {
+                "path": "../../src/pdf/mindre_matsvinn/folder.pdf",
+                "name": "folder.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/mindre_matsvinn/folder.png",
+                "desc": "Mockup of the folder for Mindre Matsvinn."
+            },
+            {
+                "path": "../../src/img/mindre_matsvinn/poster.jpg",
+                "desc": "Poster for the campaign Mindre Matsvinn."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 3,
+        "title": "Summefestivalen - Brand Identity, Marketing material and Packaging",
+        "description": [
+            "A complete visual identity for Summefestivalen, a festival celebrating World Bee Day at Kaldvell Gård. The brief was to create a cohesive brand identity across logo, app, and packaging for festival honey.",
+            "The identity uses organic shapes, warm colors, and hand-drawn botanical elements to reflect nature, sustainability, and a family-friendly atmosphere. The app extends the festival experience digitally with recipes, maps, and news, while the honey packaging combines hexagonal forms and eco-friendly materials. The final design balances visual consistency with engagement for families, students, and sustainability-minded audiences."
+        ],
+        "date": "03.10.2025",
+        "category": ["Web", "Print", "Packaging", "Social Media", "Photography", "Visual Identity"],
+        "files": [
+            {
+                "path": "https://www.figma.com/proto/8X3UltXqyRRkA6taUC5hnZ/App?node-id=11-304&viewport=554%2C618%2C0.26&t=51mqicEPpKWViFco-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A304",
+                "name": "Link to app prototype"
+            },
+            {
+                "path": "../../src/pdf/summefestivalen/designmanual.pdf",
+                "name": "designmanual.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/summefestivalen/product.jpg",
+                "desc": "Product photo of honey sold at Summefestivalen."
+            },
+            {
+                "path": "../../src/img/summefestivalen/app.jpg",
+                "desc": "Mockup of the app for Summefestivalen."
+            },
+            {
+                "path": "../../src/img/summefestivalen/post.png",
+                "desc": "Mockup of a facebook post marketing Summefestivalen."
+            },
+            {
+                "path": "../../src/img/summefestivalen/pins.jpg",
+                "desc": "Mockup of pins for Summefestivalen."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 4,
+        "title": "Unanswered - Awareness Campaign",
+        "description": [
+            "A campaign focused on the gender gap in healthcare, highlighting how women's symptoms are often dismissed and research is male-focused. The brief was to develop a visual identity, poster series, billboards, and interactive touchpoint cards to raise awareness among young women.",
+            "The branding is minimal and bold, using black, white, and Unanswered Red to communicate missing information. The logo combines the female symbol with a question mark and reinforces the slogan, “Women deserve answers.” The poster series balances personal stories and statistical information, while the cards offer a tangible, interactive way to engage. The campaign materials are consistent, clear, and memorable."
+        ],
+        "date": "04.12.2025",
+        "category": ["Print", "Visual Identity"],
+        "files": [
+            {
+                "path": "../../src/pdf/unanswered/designmanual.pdf",
+                "name": "designmanual.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/unanswered/poster_story.png",
+                "desc": "Mockup of story-based poster for Unanswered."
+            },
+            {
+                "path": "../../src/img/unanswered/poster_stat.png",
+                "desc": "Mockup of stat-based poster for Unanswered."
+            },
+            {
+                "path": "../../src/img/unanswered/card.png",
+                "desc": "Cards with information about women's health."
+            },
+            {
+                "path": "../../src/img/unanswered/billboard_story.png",
+                "desc": "Mockup of story-based billboard for Unanswered."
+            },
+            {
+                "path": "../../src/img/unanswered/billboard_stat.png",
+                "desc": "Mockup of stat-based billboard for Unanswered."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 5,
         "title": "CuteCon - Branding, Website & Social Media",
         "description": [
-            "The brief for this project was to create a fictional event and design the on-screen promotional materials for it. This included the brand positioning, an interactive mobile website prototype, a social media strategy, social media profiles and content, and a style guide. I created CuteCon, a convention that celebrates everything cute.",
-            "For the design choices, I focused on creating a visual identity that felt soft, playful, and welcoming, using pastel colors, rounded elements, and mascots that defined CuteCon's personality. The mobile site was designed for clarity and ease of use, starting with simple wireframes, user personas, and early feedback that shaped the final prototype. I refined the layout, improved homepage hierarchy, adjusted illustrations, and added a loading screen animation.",
-            "The social media strategy focused on entertainment, engagement, and community-building across Instagram and TikTok. I created content to introduce the mascots, encourage participation, and generate excitement for the event, using a consistent tone, templates, and playful visuals. Interactive elements, such as polls, naming contests, and short animations, helped fans connect with the brand and share their experiences. All posts were designed to feel cohesive with the overall identity and support a fun, welcoming event atmosphere."
+            "A fictional convention celebrating all things cute, from kawaii fashion and plushies to cosplay and creative workshops. The brief was to develop a visual identity, mascots, a mobile site prototype, and social media content to engage attendees.",
+            "The branding uses pastel colors, rounded fonts, and playful mascots to reflect inclusivity, creativity, and fun. The mobile site prioritizes intuitive navigation and ticket purchase, while social media content reinforces engagement and entertainment. The project balances professionalism with playful charm, creating a cohesive and recognizable identity for fans, creators, and families."
         ],
         "date": "12.09.2025",
         "category": ["Web", "Social Media", "Visual Identity"],
@@ -68,11 +219,34 @@
         "color": "#ffffff"
     },
     {
-        "id": 2,
+        "id": 6,
+        "title": "Harry Potter and the Prisoner of Azkaban - Book Cover Redesign",
+        "description": [
+            "A book cover redesign giving a more mature and mysterious interpretation of Harry Potter and the Prisoner of Azkaban. The brief was to create a cover that appeals to adults familiar with the series while reflecting the story's themes.",
+            "The cover centers on an hourglass containing key story elements, with two Dementors forming the silhouette of Sirius Black's dog. I used a monochromatic green palette and Celtic MN for the title to reference the series' mythological roots. The layout guides the eye toward the hourglass while keeping the composition clear and focused, balancing symbolism and visual clarity."
+        ],
+        "date": "12.09.2024",
+        "category": ["Print"],
+        "files": [
+            {
+                "path": "../../src/pdf/bookcover/bookcover.pdf",
+                "name": "bookcover.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/bookcover/bookcover-mockup.jpg",
+                "desc": "Mockup of the new cover I designed for Harry Potter and the Prisoner of Azkaban."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 7,
         "title": "Nexa - Brand Identity",
         "description": [
-            "The brief for this project was to develop a full brand identity for a product, location, and target audience chosen from a provided list. This included creating a brand name, logo, a one-page style guide, mockups for various touchpoints, and a wild-card marketing idea. I created Nexa, a high-end tech brand based in Brooklyn, New York, aimed at nostalgic millennials, combining modern technology with the playful and optimistic design spirit of the Y2K era.",
-            "I focused on creating a brand identity that felt bold, playful, and premium, using a Y2K-inspired color palette of purple, cyan, and yellow, rounded typography, and star-shaped motifs. The logo balances modern clarity with retro-futuristic style, and alternate variations make it flexible across applications. Packaging, posters, and a mobile-first website were designed to merge nostalgia with sleek, modern presentation, while additional elements like metallic textures and holographic patterns reinforced the retro-futuristic feel. The wild-card Time Machine pop-up brought the brand to life as an immersive, interactive experience, blending nostalgia with Nexa's high-end tech identity. Across all touchpoints, the focus was on making Nexa feel collectible, exciting, and cohesive while appealing to the playful, optimistic sensibilities of the target audience."
+            "A full brand identity for Nexa, a high-end tech brand targeting nostalgic millennials. The brief was to create a brand that merges modern technology with playful Y2K-inspired design.",
+            "The logo features a star icon inside the “A” referencing retro-futuristic aesthetics, while the color palette balances purple, cyan, yellow, black, and gray to combine playfulness and sophistication. Typography is SF Pro, using Expanded Black for headlines and Regular for body text. Mockups show packaging, posters, and a mobile-first website, and the Time Machine pop-up creates an immersive, nostalgic experience with interactive displays of late-90s/00s gadgets alongside Nexa products."
         ],
         "date": "03.10.2025",
         "category": ["Visual Identity", "Web", "Print", "Packaging"],
@@ -103,11 +277,108 @@
         "color": "#f00"
     },
     {
-        "id": 3,
+        "id": 8,
+        "title": "Designfestivalen - Folder",
+        "description": [
+            "An informational folder for a fictional pop-up exhibition organized by Kunstsiloen, celebrating three graphic design eras: Bauhaus, Modernism, and Postmodernism. The brief was to create a folder that communicates each era and key designers clearly for adult audiences.",
+            "The folder presents Herbert Bayer, Paul Rand, and Paula Scher, highlighting their signature styles. I used a “Stepped Accordion” fold to make each section title visible when closed, and a consistent typographic approach with Neue Kabel. Colors and layout reflect each era while maintaining visual cohesion across the folder."
+        ],
+        "date": "07.11.2024",
+        "category": ["Print"],
+        "files": [
+            {
+                "path": "../../src/pdf/designfestivalen/folder.pdf",
+                "name": "folder.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/designfestivalen/folder.png",
+                "desc": "The folder closed."
+            },
+            {
+                "path": "../../src/img/designfestivalen/folder_back.jpg",
+                "desc": "The back of the folder."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 9,
+        "title": "Photography - 15 Principles",
+        "description": [
+            "A series of 15 photographs exploring key photography principles using manual camera settings. The brief was to experiment with shutter speed, aperture, and ISO to create visually engaging images that demonstrate each principle.",
+            "I captured images indoors and outdoors using natural light, props, and models to explore movement, perspective, and composition. Each image was composed to highlight the chosen principle. The photobook presents the images with a consistent layout and typography."
+        ],
+        "date": "17.10.2024",
+        "category": ["Photography"],
+        "files": [
+            {
+                "path": "../../src/pdf/photography_principles/photobook.pdf",
+                "name": "photobook.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/photography_principles/negativeSpace.jpg",
+                "desc": "Image of a puddle where a forest is reflected."
+            },
+            {
+                "path": "../../src/img/photography_principles/shallowDepth.jpg",
+                "desc": "Image of a forest where the background is blurry."
+            },
+            {
+                "path": "../../src/img/photography_principles/ruleOfThirds.JPG",
+                "desc": "Image of a woman in a viewfinder on a camera."
+            },
+            {
+                "path": "../../src/img/photography_principles/newPerspective.JPG",
+                "desc": "Image of a woman sitting on some stairs."
+            },
+            {
+                "path": "../../src/img/photography_principles/creativeLight.jpg",
+                "desc": "Image of a cat about to bite some fairylights."
+            },
+            {
+                "path": "../../src/img/photography_principles/contrast.jpg",
+                "desc": "Image of a white cat."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 10,
+        "title": "Skumle Dager - New logo for Dyreparken",
+        "description": [
+            "A logo redesign for “Skumle Dager,” a Halloween event with three distinct experiences for different age groups. The brief was to create a cohesive visual identity that distinguishes each experience while maintaining a clear connection across the event.",
+            "I designed a central umbrella logo with playful, spooky colors and integrated a tree motif into the typography to reflect the forested setting of the park. The logo was applied across mockups and a style manual to ensure consistency."
+        ],
+        "date": "04.10.2024",
+        "category": ["Visual Identity"],
+        "files": [
+            {
+                "path": "../../src/pdf/dyreparken/styleguide.pdf",
+                "name": "styleguide.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/dyreparken/skumle_dager_logo.jpg",
+                "desc": "My design for a new logo for Skumle Dager."
+            },
+            {
+                "path": "../../src/img/dyreparken/stilmanual_01.png",
+                "desc": "Styleguide for the new logo."
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 11,
         "title": "A Tail Through Graphic Design History - Leaflet Design",
         "description": [
-            "The brief for this project was to create a creatively folded leaflet for a pop-up exhibition at Noroff Bergen. The leaflet needed to communicate four specific graphic design styles from the 1950s to the 1980s: International Typographic Style, Pop Art, Psychedelic Poster Style, and Punk/New Wave. Each section had to include text, designer names, and a timeline or infographic. I designed a leaflet called A Tail Through Graphic Design History, using a cat motif where the tail serves as the timeline, tying the sections together in a playful and memorable way.",
-            "I focused on creating a leaflet that allows four very different styles to coexist while staying visually connected. To do this, I used a consistent color palette and the recurring cat motif. The cat's tail acts as the timeline, linking the sections and adding a playful narrative element. Each style has its own typographic personality for the titles, while Helvetica keeps the body text unified. The accordion fold with a cut along the top edge keeps the timeline visible even when the leaflet is closed, and the cat silhouette on the front adds a dynamic, souvenir-like quality. Visual elements, from grid-based Swiss layouts to psychedelic warped shapes and punk-inspired textures, reflect each era's character while keeping the leaflet engaging, educational, and playful."
+            "A folded leaflet designed for a pop-up exhibition exploring four graphic design movements: Swiss Style, Pop Art, Psychedelic Poster Style, and Punk / New Wave. The brief was to create an engaging and educational souvenir that communicates each style clearly to adult viewers.", 
+            "To create cohesion between very different styles, I used a shared color palette and a recurring cat motif. The cat's tail functions as a timeline connecting the eras, while each section reinterprets the same subject through its own visual language. The leaflet balances unity and contrast across typography, color, and composition, making it both informative and memorable."
         ],
         "date": "24.10.2025",
         "category": ["Print"],
@@ -146,11 +417,11 @@
         "color": "#f00"
     },
     {
-        "id": 4,
+        "id": 12,
         "title": "Product Photography - Candle",
         "description": [
-            "The brief for this project was to produce a high-quality product photograph in three formats: square, Instagram post, and web banner. The image had to communicate information about the product without text or graphics, using only light, composition, and color. I chose a scented candle from Nille with the Wooden House scent, aiming to convey warmth, comfort, and a modern, luxurious feel.",
-            "I focused on communicating the candle's qualities and atmosphere through light, composition, and color alone. To highlight its sleek black packaging and natural, cozy character, I used a dark background and warm, soft light. Without access to studio lights, I used painting-with-light techniques, moving a phone screen and occasionally keeping the light stationary to define edges and create depth. The candle was placed on a wooden box to visually connect to its scent, and the composition was kept minimal to maintain focus. In post-production, multiple exposures were layered in Photoshop and fine-tuned for color, contrast, and clarity, resulting in images that balance elegance and warmth while meeting all format requirements."
+            "A product photoshoot highlighting the Wooden House scented candle from Nille. The brief was to communicate warmth, elegance, and minimalism through photography.",
+            "The sleek black packaging contrasts with a dark background, while warm, painterly light evokes a cozy, homely atmosphere. Lighting was created using phone screens and a small flashlight with long exposure, shaping highlights and emphasizing texture. The composition uses a simple wooden prop to connect to the scent, keeping the focus on the product. The images communicate both luxurious and comforting qualities."
         ],
         "date": "03.10.2025",
         "category": ["Photography"],
