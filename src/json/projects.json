@@ -442,5 +442,42 @@
             }
         ],
         "color": "#f00"
+    },
+    {
+        "id": 0,
+        "title": "Motion Design - A Murder of Crows",
+        "description": [
+            "The brief for this project was to create a short motion design animation based on a concept of our choice. The final piece needed to communicate a clear idea through motion, timing, and visual storytelling.",
+            "I chose to base my animation on the phrase “a murder of crows“. Using hand-drawn illustrations, a limited black-and-white color palette, and subtle animation, I created an eerie atmosphere that plays on the phrase's double meaning. The animation gradually reveals the full phrase through the arrival of the crows, combining illustration and motion to tell a simple visual story.",
+            "The bouncing cat animation was created as a variation of the classic bouncing ball exercise. The focus was on applying animation principles such as timing, anticipation, and squash and stretch while adding a simple character element.",
+            "The Scoops Ice Cream animation was created using provided assets for a fictional advertising campaign. The project focused on using motion to support a voice-over, creating clear visual communication while maintaining a simple and approachable style."
+        ],
+        "date": "27.03.2026",
+        "category": ["Motion Design"],
+        "files": [
+            {
+                "path": "https://youtu.be/6DKYSGvtF0o",
+                "name": "Link to A Murder of Crows animation on YouTube"
+            },
+            {
+                "path": "https://youtu.be/xwq_9DOpKm8",
+                "name": "Link to Cat Bounce animation on YouTube"
+            },
+            {
+                "path": "https://youtu.be/xZau-mVqLns",
+                "name": "Link to Ice Cream animation on YouTube"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/murder/animation.gif",
+                "desc": "Animation of crows landing on powerlines. The text shows A Murder Of Crows"
+            },
+            {
+                "path": "../../src/img/murder/cat_bounce.gif",
+                "desc": "Animation of a ball shaped cat bouncing"
+            }
+        ],
+        "color": "#f00"
     }
 ]
