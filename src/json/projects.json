@@ -1,6 +1,103 @@
 [
     {
         "id": 1,
+        "title": "Motion Design - A Murder of Crows",
+        "description": [
+            "The brief for this project was to create a short motion design animation based on a concept of our choice. The final piece needed to communicate a clear idea through motion, timing, and visual storytelling.",
+            "I chose to base my animation on the phrase “a murder of crows“. Using hand-drawn illustrations, a limited black-and-white color palette, and subtle animation, I created an eerie atmosphere that plays on the phrase's double meaning. The animation gradually reveals the full phrase through the arrival of the crows, combining illustration and motion to tell a simple visual story.",
+            "The bouncing cat animation was created as a variation of the classic bouncing ball exercise. The focus was on applying animation principles such as timing, anticipation, and squash and stretch while adding a simple character element.",
+            "The Scoops Ice Cream animation was created using provided assets for a fictional advertising campaign. The project focused on using motion to support a voice-over, creating clear visual communication while maintaining a simple and approachable style."
+        ],
+        "date": "27.03.2026",
+        "category": ["Motion Design"],
+        "files": [
+            {
+                "path": "https://youtu.be/6DKYSGvtF0o",
+                "name": "Link to A Murder of Crows animation on YouTube"
+            },
+            {
+                "path": "https://youtu.be/xwq_9DOpKm8",
+                "name": "Link to Cat Bounce animation on YouTube"
+            },
+            {
+                "path": "https://youtu.be/xZau-mVqLns",
+                "name": "Link to Ice Cream animation on YouTube"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/murder/animation.gif",
+                "desc": "Animation of crows landing on powerlines. The text shows A Murder Of Crows"
+            },
+            {
+                "path": "../../src/img/murder/cat_bounce.gif",
+                "desc": "Animation of a ball shaped cat bouncing"
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 2,
+        "title": "Magnetic Magazine - Magazine Design",
+        "description": [
+            "The brief for this project was to design and lay out a printed edition of Magnetic Magazine, including a cover, table of contents, about page, and four feature articles. The challenge was to create a cohesive editorial design that reflected the magazine's existing brand while remaining engaging and easy to navigate.",
+            "I created a magazine inspired by music production and the progressive music culture that Magnetic Magazine covers. The cover features a custom illustration, while the interior uses a grid-based layout, clear typographic hierarchy, and color-coded article categories to improve navigation. The design combines clean layouts, strong typography, and visual consistency to create a magazine that feels connected to the existing digital brand.",
+            "All articles are from Magnetic Magazine"
+        ],
+        "date": "29.01.2026",
+        "category": ["Print"],
+        "files": [
+            {
+                "path": "https://magneticmag.com",
+                "name": "Link to Magnetic Magazine Website"
+            },
+            {
+                "path": "../../src/pdf/magazine/magazine.pdf",
+                "name": "magazine.pdf"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/magazine/magazine_01.png",
+                "desc": "Cover of the magazine"
+            },
+            {
+                "path": "../../src/img/magazine/magazine_10.png",
+                "desc": "Article about Kingdom Come Deliverance 2 soundtrack from the magazine"
+            },
+            {
+                "path": "../../src/img/magazine/magazine_15.png",
+                "desc": "Article about Deathpixie from the magazine"
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 3,
+        "title": "Photography - Clarity",
+        "description": [
+            "The brief for this project was to create an advertisement for a fictional product or service using a self-produced photograph. The image had to combine model photography with either architectural, landscape, or astro photography, with the model as the main focus of the composition.",
+            "I created an advertisement for a fictional mental wellness app called Clarity. The photograph combines a blurred model with the architecture of Kilden Performing Arts Centre to visually represent mental overwhelm and the search for clarity. The contrast between the moving figure and the structured surroundings reinforces the concept, while a minimal layout and the tagline “Slow your mind.” support the calm and focused message of the app.",
+            "All articles are from Magnetic Magazine"
+        ],
+        "date": "29.01.2026",
+        "category": ["Photography"],
+        "files": [
+            {
+                "path": "../../src/img/clarity/clarity.jpg",
+                "name": "clarity.jpg"
+            }
+        ],
+        "images": [
+            {
+                "path": "../../src/img/clarity/clarity.jpg",
+                "desc": "Advert for Clarity"
+            }
+        ],
+        "color": "#f00"
+    },
+    {
+        "id": 4,
         "title": "BUGS - Packaging Design",
         "description": [
             "A visual identity and packaging design for BUGS, a chocolate snack targeting Gen Z. The brief was to create a name, logo, packaging, social media content, and a poster to communicate the product's playful gaming theme and ethical cocoa sourcing.",
@@ -39,7 +136,7 @@
         "color": "#f00"
     },
     {
-        "id": 2,
+        "id": 5,
         "title": "Mindre Matsvinn - Awareness Campaign",
         "description": [
             "An awareness campaign for children aged 6-10 to promote responsible food consumption. The brief was to develop a mascot, posters, a folder, and a style manual that educate while remaining engaging for young audiences.",
@@ -74,7 +171,7 @@
         "color": "#f00"
     },
     {
-        "id": 3,
+        "id": 6,
         "title": "Summefestivalen - Brand Identity, Marketing material and Packaging",
         "description": [
             "A complete visual identity for Summefestivalen, a festival celebrating World Bee Day at Kaldvell Gård. The brief was to create a cohesive brand identity across logo, app, and packaging for festival honey.",
@@ -113,7 +210,7 @@
         "color": "#f00"
     },
     {
-        "id": 4,
+        "id": 7,
         "title": "Unanswered - Awareness Campaign",
         "description": [
             "A campaign focused on the gender gap in healthcare, highlighting how women's symptoms are often dismissed and research is male-focused. The brief was to develop a visual identity, poster series, billboards, and interactive touchpoint cards to raise awareness among young women.",
@@ -152,7 +249,7 @@
         "color": "#f00"
     },
     {
-        "id": 5,
+        "id": 8,
         "title": "CuteCon - Branding, Website & Social Media",
         "description": [
             "A fictional convention celebrating all things cute, from kawaii fashion and plushies to cosplay and creative workshops. The brief was to develop a visual identity, mascots, a mobile site prototype, and social media content to engage attendees.",
@@ -219,7 +316,7 @@
         "color": "#ffffff"
     },
     {
-        "id": 6,
+        "id": 9,
         "title": "Harry Potter and the Prisoner of Azkaban - Book Cover Redesign",
         "description": [
             "A book cover redesign giving a more mature and mysterious interpretation of Harry Potter and the Prisoner of Azkaban. The brief was to create a cover that appeals to adults familiar with the series while reflecting the story's themes.",
@@ -242,7 +339,7 @@
         "color": "#f00"
     },
     {
-        "id": 7,
+        "id": 10,
         "title": "Nexa - Brand Identity",
         "description": [
             "A full brand identity for Nexa, a high-end tech brand targeting nostalgic millennials. The brief was to create a brand that merges modern technology with playful Y2K-inspired design.",
@@ -277,7 +374,7 @@
         "color": "#f00"
     },
     {
-        "id": 8,
+        "id": 11,
         "title": "Designfestivalen - Folder",
         "description": [
             "An informational folder for a fictional pop-up exhibition organized by Kunstsiloen, celebrating three graphic design eras: Bauhaus, Modernism, and Postmodernism. The brief was to create a folder that communicates each era and key designers clearly for adult audiences.",
@@ -304,7 +401,7 @@
         "color": "#f00"
     },
     {
-        "id": 9,
+        "id": 12,
         "title": "Photography - 15 Principles",
         "description": [
             "A series of 15 photographs exploring key photography principles using manual camera settings. The brief was to experiment with shutter speed, aperture, and ISO to create visually engaging images that demonstrate each principle.",
@@ -347,7 +444,7 @@
         "color": "#f00"
     },
     {
-        "id": 10,
+        "id": 13,
         "title": "Skumle Dager - New logo for Dyreparken",
         "description": [
             "A logo redesign for “Skumle Dager,” a Halloween event with three distinct experiences for different age groups. The brief was to create a cohesive visual identity that distinguishes each experience while maintaining a clear connection across the event.",
@@ -374,7 +471,7 @@
         "color": "#f00"
     },
     {
-        "id": 11,
+        "id": 14,
         "title": "A Tail Through Graphic Design History - Leaflet Design",
         "description": [
             "A folded leaflet designed for a pop-up exhibition exploring four graphic design movements: Swiss Style, Pop Art, Psychedelic Poster Style, and Punk / New Wave. The brief was to create an engaging and educational souvenir that communicates each style clearly to adult viewers.", 
@@ -417,7 +514,7 @@
         "color": "#f00"
     },
     {
-        "id": 12,
+        "id": 15,
         "title": "Product Photography - Candle",
         "description": [
             "A product photoshoot highlighting the Wooden House scented candle from Nille. The brief was to communicate warmth, elegance, and minimalism through photography.",
